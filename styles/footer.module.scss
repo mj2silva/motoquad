@@ -1,0 +1,145 @@
+@import "./fonts/vars.scss";
+
+.Footer {
+  font-family: $estricta;
+  margin: 0;
+  color: white;
+  padding: 2rem 1rem;
+  background-color: #08488f;
+
+  &Top {
+    margin: 0 auto;
+    max-width: 1000px;
+
+    & ul {
+      display: flex;
+      list-style: none;
+      gap: 3rem;
+    }
+
+    & ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.4rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.15rem;
+    }
+  }
+
+  &Body {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem auto;
+  }
+
+  &Branches {
+    & h3 {
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.1rem;
+    }
+    & ul {
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      gap: 0.5rem;
+    }
+
+    & ul li span {
+      font-size: 1rem;
+      width: 0.8rem;
+      display: inline-block;
+    }
+
+    & ul li a {
+      color: white;
+      text-decoration: none;
+      margin-left: 0.5rem;
+      font-weight: 200;
+    }
+  }
+
+  &Phones {
+    & h3 {
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.1rem;
+    }
+    & ul {
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      gap: 1rem;
+    }
+
+    & ul li a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin-left: 0.5rem;
+      font-weight: 200;
+    }
+  }
+
+  &Logo {
+    &Image {
+      position: relative;
+      width: 17rem;
+      aspect-ratio: 16 / 9;
+      border-left: 3px solid white;
+      & img {
+        object-fit: cover;
+        filter: brightness(0) invert(1);
+      }
+    }
+  }
+
+  &Bottom {
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  &Copy {
+    display: flex;
+    justify-self: flex-start;
+    align-self: center;
+    flex-direction: column;
+    width: fit-content;
+    & div {
+      display: flex;
+      gap: 1rem;
+    }
+    & div a {
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 500;
+      letter-spacing: 0.05rem;
+    }
+  }
+
+  &Social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    &Icon {
+      display: flex;
+      justify-content: center;
+      padding: 0.3rem;
+      background-color: white;
+      width: 1.5rem;
+      font-size: 1.5rem;
+      aspect-ratio: 1 / 1;
+      border-radius: 50%;
+      box-sizing: border-box;
+      color: #08488f;
+    }
+  }
+}

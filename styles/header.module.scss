@@ -1,0 +1,26 @@
+@import "./fonts/vars.scss";
+
+.Header {
+  background-color: rgba(0, 0, 0, 0.505);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  font-family: $estricta;
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  box-sizing: border-box;
+
+  &Logo {
+    position: relative;
+    width: 7rem;
+    border-right: 3px solid white;
+    padding-right: 3rem;
+    aspect-ratio: 16 / 7;
+    filter: brightness(0) invert(1);
+
+    & img {
+      object-fit: cover;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+@import "../styles/fonts/vars.scss";
+
+.Carousel {
+  position: relative;
+}
+
+.Title {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 99999;
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  padding: 0 2rem;
+  font-family: $estricta;
+  text-transform: uppercase;
+  line-height: 2rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  letter-spacing: 0.5rem;
+  background-color: rgba($color: #000000, $alpha: 0.8);
+}
+
+.Image {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 7.5;
+
+  & img {
+    object-fit: cover;
+  }
+}
+
+.SideMenu {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: fit-content;
+  margin: auto;
+  right: 0;
+}
