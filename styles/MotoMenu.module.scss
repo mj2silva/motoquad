@@ -1,0 +1,24 @@
+@import "./fonts/vars.scss";
+
+.MotoMenu {
+  font-family: $estricta;
+  background-color: rgb(245, 245, 245);
+  & nav ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    & li button {
+      text-transform: uppercase;
+      font-weight: 700;
+      background-color: transparent;
+      border: none;
+      font-family: inherit;
+      padding: 0.5rem 2rem;
+      &:hover {
+        color: $blue;
+      }
+    }
+  }
+}

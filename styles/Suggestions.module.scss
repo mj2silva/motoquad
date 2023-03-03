@@ -1,0 +1,77 @@
+@import "./fonts/vars.scss";
+
+.Suggestions {
+  font-family: $estricta;
+  margin: 3rem auto;
+  & h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: $blue;
+  }
+
+  &CardGroup {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  &Card {
+    position: relative;
+    width: 32%;
+    min-width: 15rem;
+    overflow: hidden;
+
+    &:hover .SuggestionsImageContainer::before {
+      transform: translateY(150%);
+      background-color: transparent;
+    }
+    & .SuggestionsImageContainer {
+      position: relative;
+      aspect-ratio: 3 / 4;
+
+      &::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #062a54ce;
+        z-index: 99;
+        transition-duration: 1000ms;
+      }
+
+      & img {
+        object-fit: cover;
+      }
+    }
+  }
+
+  &CardTitle {
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    padding: 0.5rem 1.5rem;
+    max-width: 8rem;
+    text-transform: uppercase;
+    background-color: rgb(222, 222, 222);
+    font-size: 0.8rem;
+    line-height: 1rem;
+    min-height: 2rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 999;
+    & span {
+      font-weight: 800;
+      display: block;
+      font-size: 1rem;
+    }
+  }
+}

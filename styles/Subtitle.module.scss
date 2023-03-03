@@ -1,0 +1,10 @@
+@import "./fonts/vars.scss";
+
+.Subtitle {
+  font-family: $estricta;
+  text-align: center;
+  color: $blue;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
