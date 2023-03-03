@@ -1,7 +1,6 @@
 import { Carousel } from "@components/components/Carousel/Carousel";
 import Head from "next/head";
 
-import "@splidejs/react-splide/css";
 import { StyleTitle } from "@components/components/StyleTitle";
 import { Subtitle } from "@components/components/Subtitle";
 import { MotoMenu } from "@components/components/MotoMenu";

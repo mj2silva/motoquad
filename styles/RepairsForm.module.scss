@@ -1,0 +1,86 @@
+@import "./fonts/vars.scss";
+
+.Title {
+  font-family: $estricta;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  color: $blue;
+  font-weight: 400;
+  text-align: center;
+}
+
+.Directions {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  color: gray;
+  padding: 0 1rem;
+}
+
+.RepairsForm {
+  font-family: $estricta;
+  display: flex;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  row-gap: 1rem;
+  font-size: 0.8rem;
+  margin-bottom: 5rem;
+  &Section {
+    width: 50%;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin: 0.5rem auto;
+  }
+  &Input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    justify-content: center;
+    & input,
+    & select {
+      padding: 0.5rem 0.5rem;
+    }
+  }
+  &InputGroup {
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: -1rem;
+  }
+
+  &InputSmall {
+    width: 8rem;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 1rem auto;
+    & select {
+      padding: 0.5rem 0.5rem;
+    }
+  }
+  &Check {
+    display: flex;
+    width: 100%;
+    padding: 0 1rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    text-transform: none;
+  }
+
+  &Button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    & button {
+      background-color: $blue;
+      color: white;
+      font-family: $estricta;
+      text-transform: uppercase;
+      padding: 0.5rem 3rem;
+      border: none;
+      font-weight: 700;
+      font-size: 1.5rem;
+      border-radius: 8px;
+    }
+  }
+}

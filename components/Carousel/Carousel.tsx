@@ -5,6 +5,8 @@ import styles from "../../styles/Carousel.module.scss";
 import Image from "next/image";
 import { SideMenu } from "../SideMenu/SideMenu";
 
+import "@splidejs/react-splide/css";
+
 type Props = {
   title?: string;
   images: {
@@ -42,7 +44,7 @@ export const Carousel: FC<Props> = (props) => {
       </Splide>
       {title && (
         <div className={styles.Title}>
-          <h1>Accesorios</h1>
+          <h1>{title}</h1>
         </div>
       )}
       {sideLinks && <SideMenu className={styles.SideMenu} />}
