@@ -3,7 +3,7 @@ import Head from "next/head";
 
 import { StyleTitle } from "@components/components/StyleTitle";
 import { Subtitle } from "@components/components/Subtitle";
-import { MotoMenu } from "@components/components/MotoMenu";
+import { MotoMenu } from "@components/components/MotoMenu/MotoMenu";
 import { Suggestions } from "@components/components/Suggestions";
 
 export default function Home() {

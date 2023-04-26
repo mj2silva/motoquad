@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import React, { FC, useEffect } from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 
 import styles from "../../styles/Carousel.module.scss";
@@ -19,6 +19,14 @@ type Props = {
 
 export const Carousel: FC<Props> = (props) => {
   const { title, interval = 3500, images, sideLinks } = props;
+
+  useEffect(() => {
+    console.log("rerender");
+  }, []);
+
+  useEffect(() => {
+    console.log("rerender");
+  }, [sideLinks]);
 
   return (
     <div className={styles.Carousel}>
