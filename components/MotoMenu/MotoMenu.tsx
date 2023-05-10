@@ -12,7 +12,7 @@ const motos = [
         id: 1,
         name: "Crypton",
         pictureUrl: "/img/motos/paseo/crypton.jpg",
-        url: "#",
+        url: "/motos/crypton",
       },
       {
         id: 2,
