@@ -70,6 +70,9 @@
     row-gap: 3rem;
     column-gap: 4rem;
     height: 100%;
+    max-height: 22rem;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 
   &Model {
