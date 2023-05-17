@@ -1,5 +1,5 @@
-import { Carousel } from "@components/components/Carousel/Carousel";
-import { RepairsForm } from "@components/components/RepairsForm";
+import { Carousel } from "@components/Carousel/Carousel";
+import { RepairsForm } from "@components/RepairsForm";
 import React from "react";
 
 const Repuestos = () => {

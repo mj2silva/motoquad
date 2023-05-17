@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "../styles/StyleTitle.module.scss";
+import styles from "@styles/StyleTitle.module.scss";
 
 export const StyleTitle = () => {
   return (

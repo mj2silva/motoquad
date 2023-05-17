@@ -1,10 +1,10 @@
-import { Carousel } from "@components/components/Carousel/Carousel";
+import { Carousel } from "@components/Carousel/Carousel";
 import Head from "next/head";
 
-import { StyleTitle } from "@components/components/StyleTitle";
-import { Subtitle } from "@components/components/Subtitle";
-import { MotoMenu } from "@components/components/MotoMenu/MotoMenu";
-import { Suggestions } from "@components/components/Suggestions";
+import { StyleTitle } from "@components/StyleTitle";
+import { Subtitle } from "@components/Subtitle";
+import { MotoMenu } from "@components/MotoMenu/MotoMenu";
+import { Suggestions } from "@components/Suggestions";
 
 export default function Home() {
   return (

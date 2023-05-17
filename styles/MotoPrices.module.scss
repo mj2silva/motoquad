@@ -1,0 +1,94 @@
+@import "./fonts/vars.scss";
+
+.MotoPrices {
+  max-width: 1360px;
+  margin: 0 auto;
+
+  &Body {
+    font-family: $roboto;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  &Image {
+    background-color: transparent;
+    position: relative;
+    min-width: 30rem;
+    max-width: 40%;
+    aspect-ratio: 4 / 3;
+    margin: 6rem;
+
+    & img {
+      object-fit: contain;
+    }
+  }
+
+  &Title {
+    font-family: $estricta;
+    color: $darkGray;
+    width: 100%;
+    border-bottom: solid 1px $lightGray;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+  }
+
+  &Phrase {
+    font-weight: 300;
+    font-size: 1.2rem;
+  }
+
+  &Info {
+    width: 40%;
+  }
+
+  &Price {
+    font-family: $estricta;
+    font-weight: 800;
+    color: $blue;
+    font-size: 2rem;
+  }
+
+  &Colors {
+    display: flex;
+    gap: 2rem;
+    margin: 2rem auto;
+  }
+
+  &Colors > * {
+    width: 2.5rem;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    border: solid 1px black;
+    display: block;
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+    transition-duration: 250ms;
+  }
+
+  &Colors > *:hover {
+    filter: contrast(80%);
+    cursor: pointer;
+  }
+
+  &Button {
+    color: white;
+    text-decoration: none;
+    background-color: $skyBlue;
+    padding: 1rem;
+    font-family: $estricta;
+    text-transform: uppercase;
+    font-weight: 800;
+    border-radius: 8px;
+    display: block;
+    max-width: 10rem;
+    text-align: center;
+    transition-duration: 250ms;
+  }
+
+  &Button:hover {
+    background-color: $blue;
+  }
+}

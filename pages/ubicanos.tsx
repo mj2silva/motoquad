@@ -1,4 +1,4 @@
-import { Carousel } from "@components/components/Carousel/Carousel";
+import { Carousel } from "@components/Carousel/Carousel";
 
 const Ubicanos = () => {
   return (

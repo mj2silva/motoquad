@@ -1,5 +1,5 @@
-import { Carousel } from "@components/components/Carousel/Carousel";
-import { ShopForm } from "@components/components/ShopForm";
+import { Carousel } from "@components/Carousel/Carousel";
+import { ShopForm } from "@components/ShopForm";
 
 const Taller = () => {
   return (

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import styles from "../styles/Suggestions.module.scss";
+import styles from "@styles/Suggestions.module.scss";
 
 export const Suggestions = () => {
   return (

@@ -1,4 +1,4 @@
-import styles from "../styles/Subtitle.module.scss";
+import styles from "@styles/Subtitle.module.scss";
 
 export const Subtitle = () => {
   return (

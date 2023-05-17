@@ -18,7 +18,7 @@ const motos = [
         id: 2,
         name: "Cygnus Ray ZR",
         pictureUrl: "/img/motos/paseo/cygnus-ray.jpg",
-        url: "#",
+        url: "/motos/cygnus-ray-zr",
       },
       {
         id: 3,

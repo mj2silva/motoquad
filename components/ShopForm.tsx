@@ -1,4 +1,4 @@
-import styles from "../styles/RepairsForm.module.scss";
+import styles from "@styles/RepairsForm.module.scss";
 
 export const ShopForm = () => {
   return (
